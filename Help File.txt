@@ -1,0 +1,16 @@
+>>>>>>>>> HELP FILE >>>>>>
+
+1. Firstly in the local drive  say D: create a folder called "Project" and inside it we have the 
+   project folder "IdentityBasedDynamicDataAuditing".
+
+2. Also create 2 more folders in the same drive with the names "appuploads" and "appdownloads"
+
+3. To set up  and connect the database file -- put the sql file inside the "project" folder.
+
+4. Next open the SQlyogCommunity and under run external script open the sql file inside the "project" folder.
+
+
+5. Next to set up the project import the project folder "IdentityBasedDynamicDataAuditing" into the Spring Tool as
+   file--> import --> general --> existing projects into projects and then select the path of the project and click on finish.
+
+6. To run the project, under servers tab add TomcatServer 8.5 and then run the project on server.
